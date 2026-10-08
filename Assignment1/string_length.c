@@ -5,7 +5,7 @@
 int main() {
     char name[100];
     printf("Enter a string: ");
-    scanf("%99s", name); // use fgets() instead if you need spaces
+    scanf("%99s", name); 
 
     printf("You entered: %s\n", name);
     printf("Length: %zu\n", strlen(name));
